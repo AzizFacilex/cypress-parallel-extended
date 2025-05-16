@@ -1,0 +1,9 @@
+{
+  "reporterEnabled": "cypress-parallel-extended/json-stream.reporter.cjs, cypress-parallel-extended/simple-spec.reporter.cjs",
+  "cypressParallelExtendedJsonStreamReporterCjsReporterOptions": {
+    "reportDir": "runner-results"
+  },
+  "cypressParallelExtendedSimpleSpecReporterCjsReporterOptions": {
+    "reportDir": "runner-results"
+  }
+}

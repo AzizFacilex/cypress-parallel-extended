@@ -1,6 +1,6 @@
 {
   "name": "cypress-parallel-extended",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Reduce up to 40% your Cypress suite execution time parallelizing the test run on the same machine.",
   "main": "cli.js",
   "type": "module",
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/tnicola/cypress-parallel#readme",
   "bin": {
-    "cypress-parallel": "./cli.js"
+    "cypress-parallel-extended": "./cli.js"
   },
   "dependencies": {
     "@colors/colors": "^1.5.0",
@@ -34,7 +34,7 @@
     "is-npm": "^6.0.0",
     "lodash.camelcase": "^4.3.0",
     "mocha": "^11.1.0",
-    "yargs": "15.3.1"
+    "yargs": "^17.7.2"
   },
   "peerDependencies": {
     "cypress-multi-reporters": "^2.0.5"
