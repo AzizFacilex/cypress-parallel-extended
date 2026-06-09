@@ -6,7 +6,6 @@ import { PizzasService } from '../../services/pizzas.service';
 
 import { Topping } from '../../models/topping.model';
 import { ToppingsService } from '../../services/toppings.service';
-import { isNumber } from 'cypress/types/lodash';
 
 @Component({
   selector: 'product-item',

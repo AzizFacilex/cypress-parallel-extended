@@ -24,18 +24,16 @@
     "cypress-parallel-extended": "./cli.js"
   },
   "dependencies": {
-    "@colors/colors": "^1.5.0",
-    "cli-table3": "^0.6.0",
-    "cross-spawn": "^7.0.3",
-    "fs-extra": "^10.0.0",
-    "glob": "^11.0.1",
+    "@colors/colors": "^1.6.0",
+    "cli-table3": "^0.6.5",
+    "cross-spawn": "^7.0.6",
+    "fs-extra": "^11.3.5",
+    "glob": "^13.0.6",
     "glob-escape": "^0.0.2",
-    "install": "^0.13.0",
-    "is-npm": "^6.0.0",
+    "is-npm": "^6.1.0",
     "lodash.camelcase": "^4.3.0",
-    "mocha": "^11.1.0",
-    "uuid": "^9.0.1",
-    "yargs": "^17.7.2"
+    "mocha": "^11.7.6",
+    "yargs": "^18.0.0"
   },
   "peerDependencies": {
     "cypress-multi-reporters": "^2.0.5"
